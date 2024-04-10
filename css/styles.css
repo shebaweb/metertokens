@@ -1,0 +1,119 @@
+@media screen, print {
+  #head {
+    font-family: "Tiro Bangla", serif;
+    display: block;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    height: 10px;
+    padding: 10px 20px 20px 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: #0000ff;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(0, 0, 255),
+      rgb(0, 140, 255)
+    );
+    border-radius: 20px 5px 5px 5px;
+    user-select: none;
+  }
+  #body,
+  h2 {
+    font-family: "Tiro Bangla", serif;
+    font-style: normal;
+    display: block;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    height: 10px;
+    padding: 10px 20px 20px 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: #0000ff;
+    background-image: linear-gradient(
+      to top right,
+      rgb(0, 0, 255),
+      rgb(0, 140, 255)
+    );
+    border-radius: 5px 5px 5px 5px;
+    user-select: none;
+  }
+  #foot {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    display: block;
+    position: sticky;
+    color: #fcc;
+    text-align: end;
+    height: 10px;
+    padding: 10px 20px 20px 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: #0000ff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(0, 140, 255),
+      rgb(0, 0, 255)
+    );
+    border-radius: 5px 5px 20px 5px;
+    user-select: none;
+  }
+  textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #fcc;
+    resize: vertical;
+    border-radius: 0px 5px 20px 5px;
+    padding: 10px;
+    font-family: monospace;
+    overflow: hidden;
+  }
+  textarea:focus {
+    border-radius: 5px 5px 20px 20px;
+    border: 1px solid rgb(0, 0, 255);
+  }
+  table#codeTable tbody#tabledata tr td {
+    background-color: #ffffffbd; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #ccffcc18, #cccccc50);
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px 5px 15px 5px;
+    border: 0.1rem solid #0000ff69;
+  }
+  #codeTable {
+    width: 100%;
+  }
+}
+tr {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="%23000" fill-rule="evenodd" d="M12 5.5v1.984a.5.5 0 0 1-.5.5H4.618l1.633-1.633l-.707-.707l-2.121 2.121L3 8.188v.568L5.544 11.3l.707-.707l-1.61-1.609H11.5a1.5 1.5 0 0 0 1.5-1.5V5.5z" clip-rule="evenodd" opacity="1"/></svg>');
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  background-position: bottom -20px right -5px;
+}
+q {
+  display: block;
+  outline: none;
+  border: 1px solid #fcc;
+  resize: vertical;
+  border-radius: 2.5px 5px 20px 5px;
+  padding: 10px;
+  font-family: monospace;
+  overflow: hidden;
+}
+q:hover {
+  border-radius: 5px 5px 20px 10px;
+  border: 1px solid rgb(0, 0, 255);
+}
+a,
+s {
+  text-decoration: none;
+}
+a {
+  color: #000000;
+}
+s {
+  color: #00000069;
+}
+#outfit {
+  width: 100%;
+}
