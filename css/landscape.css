@@ -1,0 +1,28 @@
+/* For Wider Screen: */
+@media (orientation: landscape) {
+  * body {
+    height: 100%;
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  textarea {
+    height: auto;
+    max-height: 300px;
+    min-height: 50px;
+  }
+  #outfit {
+    overflow: visible;
+  }
+  table#codeTable tbody#tabledata tr {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-wrap: nowrap;
+    letter-spacing: 5px;
+    font-size: 2rem;
+  }
+}
